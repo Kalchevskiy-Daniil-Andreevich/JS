@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Задание № 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function fun1() {
+			alert("Вас приветствует учебный центр");
+			let name = prompt("Введите имя");
+			alert("Добро пожаловать на наши курсы, " + name);
+			let data = confirm("Хотите стать Web-дизайнером?");
+			if (data) {
+				alert("Учите стили CSS и JavaScript!");
+			} else {
+				alert("Упускаете время!")
+			}
+		}
+	</script>
+	<input style="color:orange" type='button' value='Задание 1' onclick='fun1()'/>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="login.css" rel="stylesheet"/>
+	<title>Регистрация</title>
+</head>
+<body style="background-image:url(witcher_7.jpg);">
+	<form name="formfirst">
+<table cellspacing="8" cellpadding="3">
+<tr>
+	<td colspan="2" class="text">
+	Регистрация
+</td>
+</tr>	
+    <tr>
+    	<td>
+    		Фамилия
+    	</td>
+		<td>
+			<input type="text" class="database" name="lastname">
+		</td>
+	</tr>
+	<tr>
+    	<td name="name">
+    		Имя
+    	</td>
+		<td>
+			<input type="text" class="database" name="name">
+		</td>
+	</tr>
+	<tr>
+    	<td name="nickname">
+    		Имя пользователя
+    	</td>
+		<td>
+			<input type="text" class="database" name="nickname">
+		</td>
+	</tr>
+	<tr>
+    	<td>
+    		Ваш возраст
+    	</td>
+		<td>
+			<input type="text" class="database">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Пол:
+		</td>
+		<td>
+			<input type="radio" name="vibor" id="male">
+	        <label for="male">
+	           мужской
+            </label>
+            <br>
+            <input type="radio" name="vibor" id="female">
+	        <label for="female">
+	           женский
+            </label>
+		</td>
+	</tr>
+		<tr>
+    	<td>
+    		Email:
+    	</td>
+		<td>
+			<input id="aaa" type="text" class="database">
+		</td>
+	</tr>
+		<tr>
+    	<td>
+    		Страна
+    	</td>
+		<td>
+			<input type="text" class="database">
+		</td>
+	</tr>
+	<tr>
+</tr>
+<tr>
+	<td>	
+	Уже есть аккаунт?	
+	</td>
+	<td>
+		<a href="login.html">
+			<input type="submit" value="Войти" class="button">
+		</a>
+		<a href="Progect_JS.html">
+			<input type="submit" value="Отмена" class="button">
+		</a>
+		<br>
+		<input type="submit" value="Зарегистрироваться" class="button" onclick="date()">
+	</td>
+</tr>
+</table>
+</form>
+<script>
+	    function date() {
+        let all=document.forms.formfirst;
+        alert("Готово!" + "\n" +all.elements.lastname.value+ +all.elements.name.value+ ", Вы успешно зарегистрировали профиль"+all.elements.nickname.value+ "!");
+        }
+</script>
+</body>
+</html>

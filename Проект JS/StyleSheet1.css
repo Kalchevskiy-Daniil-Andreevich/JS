@@ -1,0 +1,268 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    list-style:none; 
+    display:inline-block;
+}
+body {
+   
+   height:1000px;
+
+}
+#id {
+    background-image: url(witcher_6.jpg);
+    background-repeat: no-repeat;
+}
+.zogol {
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 120px;
+}
+.serials {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-left: 120px;
+}
+.gg {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+.ogran {
+    margin-left: 120px;
+}
+.nt {
+    display: none;
+    width: 24px;
+    height: 40px;
+}
+.text {
+    position: absolute;
+}
+.mm {
+    text-decoration: none;
+    vertical-align: middle;
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+}
+.hh {
+    min-height: 0;
+    line-height: 15px;
+    padding: 9px 20px;
+    font-size: 13px;
+    margin: 0 0 0 8px;
+    color: #fff;
+    background-color: #e50914;
+    position: relative;
+    margin-top: 10px;
+    border: 2px solid #888;
+}
+.yy {
+    color: white;
+    font-weight: 400;
+    border: 2px solid #888;
+    border-radius: 2px;
+    line-height: 13px;
+    white-space: nowrap;
+    padding: 9px 20px;
+    font-size: 13px;
+    margin: 0 0 0 8px;
+
+}
+.menu a{
+    font-size:25px;
+    line-height:36px;
+    color:white;
+  
+}
+.menu li {
+ display:inline-block;
+}
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.menu li + li {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo {
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.hook-hr {
+    margin-top: 18px;
+}
+.hook-header {
+    max-width: 500px;
+    margin-top: 70px;
+    margin-left:475px;
+    text-align:center;
+}
+h3 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.hook-text {
+    max-width: 500px;
+    margin-left: 525px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #a3a3a3;
+
+}
+.naz {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.naz_2 {
+    color: #a3a3a3;
+    white-space: nowrap;
+    display: inline-block;
+    
+}
+.trailer {
+    display: inline-block;
+    width: 320px;
+    margin-left:55px;
+}
+.qq{
+    width:260px;
+    height:200px;
+}
+.about {
+    background-image: url(witcher_9.jpg);
+    background-repeat: no-repeat;
+}
+.mzmz {
+    line-height: 24px;
+    font-size: 24px;
+    color: grey;
+}
+.about_title{
+    margin-bottom:20px;
+    font-size:34px;
+    line-height:24px;
+    color:grey;
+    text-align:center;
+}
+.about_1 {
+    background-image: url(witcher_10.jpg);
+    background-repeat: no-repeat;
+    height:800px;
+
+}
+.about_title_1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: 24px;
+    color: darkgray;
+    text-align: center;
+}
+.about_title_2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: 24px;
+    color: white;
+    margin-left: 120px; 
+}
+.about_2{
+    background-image:url(witcher_16.jpg);
+    height:300px;
+
+}
+.menu_1 {
+    color: red;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+}
+.menu_1 li {
+    display: inline-block;
+}
+.menu_1 li + li {
+    margin-left: 350px;
+    margin-top: 700px;
+}
+.menu_1 a {
+    font-size: 25px;
+    line-height: 36px;
+    color: white;
+}
+.saundtrek {
+    display: inline-block;
+    margin-top: 20px;
+    width: 320px;
+    margin-left: 55px;
+}
+#jk {
+    font-size: 20px;
+    font-weight: 500;
+    color: lightpink;
+}
+#ll {
+    font-size: 25px;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align:center;
+    margin:0 auto;  
+}
+#mm {
+    font-size: 30px;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left:570px;
+}
+.footer-top {
+    display: block;  
+    margin-left: 100px;
+    font-size: 25px;
+    color:gray;
+}
+ul {
+    display: block;
+    list-style-type: none;
+}
+.foter_link {
+    box-sizing: border-box;
+    padding: 0;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-left: 100px;
+    font-size: 18px;
+    color: wheat;
+    margin-top: 20px;
+}
+#zaq {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color: grey;
+    background: black;
+}
+div li:hover{
+    border-bottom:1px solid white;
+}
+.footer{
+    background:black;
+}

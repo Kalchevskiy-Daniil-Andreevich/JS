@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 3</title>
+</head>
+<body>
+<script>
+document.write("<table border = '1'>");
+ document.write("</tr>");
+ document.write("<td>" + "Радиус" + "</td>");
+ document.write("<td>" + "Площадь круга" + "</td>");
+ document.write("<td>" + "Длина окружности" + "</td>");
+    let a = Number(prompt("Введите а"));
+    let b = Number(prompt("Введите b"));
+ let r=a;
+ do{
+  l=r.toFixed(2);
+  document.write("</tr>");
+  document.write("<td>" + l + "</td>");
+  document.write("<td>" + Math.round(Math.pow(l,2)* Math.PI) + "</td>");
+  document.write("<td>" + Math.round (2*Math.PI*l) + "</td>");
+  r=r+0.3;
+ }
+ while(r<=b)
+</script>
+ </body>   
+</html>

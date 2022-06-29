@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>6</title>
+</head>
+<body>
+    <script>
+        var w;
+        function f1() {
+            w = window.open();
+        }
+        function f2() {
+            w.close();
+        }
+        function f3() {
+            w.alert("Здравстввуй, Браузер! Как дела?");
+        }
+        // объектной модели браузераю объектной модели браузера (Browser Object Model) можно управлять поведением браузера из JavaScript.
+        function f4() {
+            document.write("Вся информация браузера пользователя: " + navigator.userAgent);
+            //объект Navigator позволяет определить, какой браузер использует пользователь
+            document.write("<br> Версия браузера пользователя: " + navigator.appVersion);
+            document.write("<br> Названии браузера пользователя: " + navigator.appName);
+            document.write("<br> Информация о кодовом названии браузера пользователя: " + navigator.appCodeName);
+            document.write("<br> ОС, которую использует пользователь: " + +navigator.platform);
+            document.write("<br> Включена ли поддержка Java в браузере: " + navigator.javaEnabled());
+            document.write("<br> Ширина и высота экрана: " + screen.width + "x" + screen.height);
+            //Screen содержит информацию об экране пользователя
+            document.write("<br> Глубина цвета: " + screen.colorDepth);
+            document.write("<br> URL, которые были посещены в данном окне браузера: " + history.length);
+            //Объект History содержит список URL, которые были посещены в данном окне браузера.
+            //С помощью свойства length можно узнать количество посещенных URL, хранящихся в списке.
+            document.write("<br> URL, текущего документа: " + location.href);
+            //Объект Location позволяет узнать информацию о URL текущего документа
+            //Свойство href хранит URL текущего документа целиком
+            document.write("<br> Путь к загруженному документу: " + location.pathname);
+        }
+    </script>
+    <input type="button" value="Кнопка,для открытия окна" onclick="f1()">
+    <input type="button" value="Кнопка,для закрытия окна" onclick="f2()">
+    <input type="button" value="Кнопка,для для добавления текста" onclick="f3()">
+    <input type="button" value="Задание 2" onclick="f4()">
+</body>
+</html>

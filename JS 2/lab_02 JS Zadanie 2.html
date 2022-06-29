@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Задание 2</title>
+</head>
+<body>
+	<script>
+        let a = +prompt("Cтолбец","1");
+        let b = +prompt("Строка","1");//унарный код + 
+        document.write("<table border= '1'>");
+        for (let i = 1; i <= a; i++) {
+            document.write("<tr>");
+            for (let u = 1; u<= b; u++) {
+                document.write("<td>" + i * u + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+	</script>
+</body>
+</html>
